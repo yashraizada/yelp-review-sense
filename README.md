@@ -1,3 +1,3 @@
 # Yelp Review Sense
 
-![Header]((images/Header.jpg))
+![Header]((images/Header.png))
