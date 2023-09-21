@@ -1,3 +1,3 @@
 # Yelp Review Sense
 
-![Header]((images/Header.png))
+![Header](yelp-review-sense/images/Header.png)
