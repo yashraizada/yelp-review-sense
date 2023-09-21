@@ -7,7 +7,7 @@
 * [Introduction](#Introduction)
    * [Objective](#Objective)
    * [Dataset](#Dataset)
-* [ETL and Data Storage ](#ETL-Data-Storage)
+* [ETL and Data Storage ](#ETL-and-Data-Storage)
 * [EDA](#EDA)
 * [Pipeline](#Pipeline)
 * [Modeling](#Modeling)
@@ -16,5 +16,5 @@
 <br/><br/>
 
 ## Introduction
-## ETL-Data-Storage
+## ETL and Data Storage
 
