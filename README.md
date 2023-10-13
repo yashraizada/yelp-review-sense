@@ -17,4 +17,7 @@
 
 ## Introduction
 ## ETL and Data Storage
-
+## EDA
+## Pipeline
+## Modeling
+## Conclusion
