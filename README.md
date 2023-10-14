@@ -34,7 +34,7 @@ The dataset used in this project is sourced from the [Yelp Open Dataset](https:/
 
 <img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/Dataset%20Description.png?raw=true"/>
 
-The dataset consists of five JSON files, totaling approximately 4 GB in compressed format and expanding to roughly 10 GB when uncompressed. These files encompass various aspects of Yelp's data, each with distinct characteristics:
+The dataset consists of 5 JSON files, totaling approximately 4 GB in compressed format and expanding to roughly 10 GB when uncompressed. These files encompass various aspects of Yelp's data, each with distinct characteristics:
 
 * **User Data**: Contains user data including the user's friend mapping and all the metadata associated with the user
     * Approximately 2 million data points
