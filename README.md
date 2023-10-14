@@ -6,6 +6,7 @@
 
 * [Introduction](#Introduction)
    * [Objective](#Objective)
+   * [About Yelp](#About-Yelp)
    * [Dataset](#Dataset)
 * [ETL and Data Storage ](#ETL-and-Data-Storage)
 * [EDA](#EDA)
@@ -16,6 +17,12 @@
 <br/><br/>
 
 ## Introduction
+### Objective
+
+### About Yelp
+
+### Dataset
+
 ## ETL and Data Storage
 ## EDA
 ## Pipeline
