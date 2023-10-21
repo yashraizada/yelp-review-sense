@@ -71,6 +71,16 @@ The dataset consists of 5 JSON files, totaling approximately 4 GB in compressed 
 
 ## ETL and Data Storage
 
+<style>
+table:nth-of-type(1) {
+    display:table;
+    width:100%;
+}
+table:nth-of-type(1) th:nth-of-type(2) {
+    width:10%;
+}
+</style>
+
 |      |business_id           |user_id               |review_id              |review_date   |review_stars|<div style="width:370px">review_text</div>        |review_total_interaction|user_yelping_since|user_review_count|user_average_stars|user_fans|user_friends_count|user_total_interactions|user_total_compliments|user_elite_years_count|user_elite_min_year|user_elite_max_year|<div style="width:370px">biz_name</div> |biz_city    |biz_state|biz_postal_code|biz_latitude|biz_longitude|biz_stars|biz_review_count|checkin_count|checkin_date_min|checkin_date_max|
 |------|----------------------|----------------------|-----------------------|--------------|------------|--------------------------------------------------|------------------------|------------------|-----------------|------------------|---------|------------------|-----------------------|----------------------|----------------------|-------------------|-------------------|----------------------------------------|------------|---------|---------------|------------|-------------|---------|----------------|-------------|----------------|----------------|
 |1     |-3e3CP3FFc-rvJj_-_airw|--2vR0DIsmQ6WfcSzKWigw|m3QNG3Ni7--EsiFv3IS3dg |2/19/15 5:08  |4           |Da uns der erste Parkplatz in der Chinatown su... |302                     |11/27/12 14:19    |1534             |4.18              |880      |3982              |578739                 |133351                |10                    |20                 |2021               |Penn's Landing                          |Philadelphia|PA       |19106          |39.960022   |-75.13715    |3.5      |80              |594          |7/4/10 1:17     |7/2/10 23:27    |
