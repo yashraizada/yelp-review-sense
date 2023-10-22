@@ -71,6 +71,30 @@ The dataset consists of 5 JSON files, totaling approximately 4 GB in compressed 
 
 ## ETL and Data Storage
 
+The data was extracted, transformed, and loaded (ETL) into an AWS RDS Postgres instance, which serves as the primary data storage solution for this project. This section provides an overview of the specific steps taken during the ETL process and the rationale behind selecting AWS RDS Postgres as the data storage solution.
+
+### Extraction
+
+The dataset was initially available in a compressed TGZ format. It was uncompressed to extract the 5 JSON files. Due to the sheer volume of the dataset, PySpark was employed to efficiently parse and work with the JSON files, allowing to prepare the data for subsequent steps. 
+
+### Transformation
+
+Following data extraction, a series of transformation steps were executed to prepare the dataset:
+
+* **Data Integration**: Data from various JSON files were logically integrated to align with the project's objectives.
+
+* **Data Formatting**: Data formatting was applied to maintain consistent data types.
+
+* **Data Reduction**: Given the substantial size of the dataset, only the relevant features were selected.
+
+* **Data Cleaning**: The data underwent a comprehensive cleaning process to address issues such as missing values, duplicate entries, and inconsistencies, ensuring enhanced data reliability.
+
+### Loading
+
+The transformed data was loaded into an AWS RDS Postgres database. The choice of AWS RDS Postgres as the data storage solution was deliberate, driven by several key considerations, such as, high availability, scalability, and security.
+
+Here's a glimpse of the dataset after completing the processing:
+
 |      |business_id           |user_id               |review_id             |review_date   |review_stars|review_text         |review_total_interaction|user_yelping_since|user_review_count|user_average_stars|user_fans|user_friends_count|user_total_interactions|user_total_compliments|user_elite_years_count|user_elite_min_year|user_elite_max_year|biz_name                                |biz_city    |biz_state|biz_postal_code|biz_latitude|biz_longitude|biz_stars|biz_review_count|checkin_count|checkin_date_min|checkin_date_max|
 |------|----------------------|----------------------|----------------------|--------------|------------|--------------------|------------------------|------------------|-----------------|------------------|---------|------------------|-----------------------|----------------------|----------------------|-------------------|-------------------|----------------------------------------|------------|---------|---------------|------------|-------------|---------|----------------|-------------|----------------|----------------|
 |1     |-3e3CP3FFc-rvJj_-_airw|--2vR0DIsmQ6WfcSzKWigw|m3QNG3Ni7--EsiFv3IS3dg|2/19/15 5:08  |4           |Da uns der erste ...|302                     |11/27/12 14:19    |1534             |4.18              |880      |3982              |578739                 |133351                |10                    |20                 |2021               |Penn's Landing                          |Philadelphia|PA       |19106          |39.960022   |-75.13715    |3.5      |80              |594          |7/4/10 1:17     |7/2/10 23:27    |
