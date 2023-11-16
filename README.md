@@ -14,8 +14,6 @@
 * [Modeling](#Modeling)
 * [Conclusion](#Conclusion)
 
-<br/>
-
 ## Introduction
 
 ### About Yelp
