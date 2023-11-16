@@ -73,6 +73,8 @@ The dataset consists of 5 JSON files, totaling approximately 4 GB in compressed 
 
 The data was extracted, transformed, and loaded (ETL) into an AWS RDS Postgres instance, which serves as the primary data storage solution for this project. This section provides an overview of the specific steps taken during the ETL process and the rationale behind selecting AWS RDS Postgres as the data storage solution.
 
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/ETL.png?raw=true"/>
+
 ### Extraction
 
 The dataset was initially available in a compressed TGZ format. It was uncompressed to extract the 5 JSON files. Due to the sheer volume of the dataset, PySpark was employed to efficiently parse and work with the JSON files, allowing to prepare the data for subsequent steps. 
