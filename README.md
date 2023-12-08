@@ -122,13 +122,29 @@ In this section, we dive deeper into the insights gained from exploring the data
 
 <img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights%20-%20Business.png?raw=true"/>
 
+The geospatial map illustrates a high concentration of businesses on the east coast, with Pennsylvania leading at nearly 34k businesses, followed by Florida with 24k. Interestingly, states with a higher number of businesses tend to maintain an average star rating of 3.5. California, with slightly fewer businesses, boasts the highest average rating of 4. Conversely, New Jersey, hosting around 8,500 businesses, shows an average rating of less than 3.5.
+
 ### Reviews Insights
 
 <img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights%20-%20Reviews.png?raw=true"/>
 
+The chart highlights a substantial increase in both positive and negative sentiments, with a significant surge in activity starting from 2010. Notably, positive sentiments consistently outweigh negative sentiments across all years. The most recent years, specifically 2018 and 2019, stand out with a peak in user review activity
+
 ### Review Text Insights
 
 <img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights%20-%20Review%20Text.png?raw=true"/>
+
+The word cloud analysis reveals prominent terms in the dataset, highlighting recurring themes related to the duration of experiences, subjective assessments, and the quality of dining:
+
+* Prominent words like 'long,' 'good,' and 'time' emphasize a focus on experience duration and quality.
+
+* Expressions related to 'order,' 'experience,' and 'waiting' underscore engagement dynamics.
+
+* Terms like 'waiting,' 'hours,' and 'another' touch on time management.
+
+* Words like 'want,' 'take,' 'weekend,' and 'young' provide context, indicating specific desires and preferences
+
+* Inclusion of 'never,' 'pleasant,' and 'going' suggests diverse experiences.
 
 ## Pipeline
 ## Modeling
