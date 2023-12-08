@@ -108,19 +108,19 @@ In this section, we dive deeper into the insights gained from exploring the data
 
 ### User Insights
 
-<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights-%20Users.png?raw=true"/>
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights%20-%20Users.png?raw=true"/>
 
 ### Business Insights
 
-<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights-%20Business.png?raw=true"/>
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights%20-%20Business.png?raw=true"/>
 
 ### Reviews Insights
 
-<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights-%20Reviews.png?raw=true"/>
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights%20-%20Reviews.png?raw=true"/>
 
 ### Review Text Insights
 
-<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights-%20Review%20Text.png?raw=true"/>
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights%20-%20Review%20Text.png?raw=true"/>
 
 ## Pipeline
 ## Modeling
