@@ -103,6 +103,25 @@ Here's a glimpse of the dataset after completing the processing:
 |4     |9dL1rsPANYr-71hdwoY-CA|43aSMIBPuDYFvduQByx4gw|1CMbbUzQkJFER754NEpUBA|9/18/15 3:17  |3           |The food is aweso...|1                       |4/14/10 22:51     |66               |3.81              |6        |225               |89                     |14                    |0                     |0                  |0                  |Desi Tadka Cuisine                      |Oldsmar     |FL       |34677          |28.042406   |-82.67776    |4        |169             |213          |5/24/13 0:57    |5/5/13 18:26    |
 
 ## EDA
+
+In this section, we dive deeper into the insights gained from exploring the dataset:
+
+### User Insights
+
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights-%20Users.png?raw=true"/>
+
+### Business Insights
+
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights-%20Business.png?raw=true"/>
+
+### Reviews Insights
+
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights-%20Reviews.png?raw=true"/>
+
+### Review Text Insights
+
+<img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/EDA%20Insights-%20Review%20Text.png?raw=true"/>
+
 ## Pipeline
 ## Modeling
 ## Conclusion
