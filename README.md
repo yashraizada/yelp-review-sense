@@ -112,9 +112,9 @@ In this section, we dive deeper into the insights gained from exploring the data
 
 * **Early Growth (2004-2007)**: Yelp experienced steady user growth, marking its initial establishment and community engagement
 
-* **Explosive Growth (2008-2013)**: The platform experienced a surge in user adoption, marked by exponential growth and increased popularity.
+* **Explosive Growth (2008-2015)**: The platform experienced a surge in user adoption, marked by exponential growth and increased popularity.
 
-* **Stabilization (2014 Onward)**: Post-2014, Yelp's user base shows signs of stabilization, suggesting a maturing user base with sustained, albeit more measured, growth
+* **Stabilization (2015 Onward)**: Post-2015, Yelp's user base shows signs of stabilization, suggesting a maturing user base with sustained, albeit more measured, growth
 
 * **Impact of COVID-19 (2020)**: A subtle decline in 2020 and 2021 is likely linked to the global impact of COVID-19, reflecting external influences on user behavior.
 
