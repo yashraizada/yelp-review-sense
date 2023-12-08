@@ -10,6 +10,10 @@
    * [Dataset](#Dataset)
 * [ETL and Data Storage ](#ETL-and-Data-Storage)
 * [EDA](#EDA)
+    * [User Insights](#User-Insights)
+    * [Business Insights](#Business-Insights)
+    * [Reviews Insights](#Reviews-Insights)
+    * [Review Text Insights](#Review-Text-Insights)
 * [Pipeline](#Pipeline)
 * [Modeling](#Modeling)
 * [Conclusion](#Conclusion)
@@ -104,7 +108,7 @@ Here's a glimpse of the dataset after completing the processing:
 
 ## EDA
 
-In this section, we dive deeper into the insights gained from exploring the dataset:
+In this section, we dive deeper into the key insights gained from exploring each dataset:
 
 ### User Insights
 
