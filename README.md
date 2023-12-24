@@ -2,7 +2,7 @@
 
 <img src="https://github.com/yashraizada/yelp-review-sense/blob/main/images/Header.png?raw=true"/>
 
-Explore Yelp Review Sense application in action! - [Click Here](https://huggingface.co/spaces/yashraizada/yelp-review-sense)
+Explore Yelp Review Sense application in action! - [Click Here](https://yelp-review-sense.streamlit.app/)
 
 ## Table of Contents
 
