@@ -4,6 +4,8 @@ import pandas as pd
 import datetime
 from dateutil.relativedelta import relativedelta
 
+hf_token = st.secrets['HF_TOKEN']
+
 business_data_path = "yashraizada/yelp-open-dataset-top-businesses"
 reviews_data_path = "yashraizada/yelp-open-dataset-top-reviews"
 top_reviews_path = "yashraizada/top-reviews-per-business"
@@ -11,19 +13,19 @@ users_data_path = "yashraizada/yelp-open-dataset-top-users"
 
 @st.cache_data
 def get_business_data(path: str = business_data_path, train_split: int = 100) -> pd.DataFrame:
-    return pd.DataFrame(load_dataset(path, split=f"train[:{train_split}%]"))
+    return pd.DataFrame(load_dataset(path, split=f"train[:{train_split}%]", token=hf_token))
 
 @st.cache_data
 def get_reviews_data(path: str = reviews_data_path, train_split: int = 100) -> pd.DataFrame:
-    return pd.DataFrame(load_dataset(path, split=f"train[:{train_split}%]"))
+    return pd.DataFrame(load_dataset(path, split=f"train[:{train_split}%]", token=hf_token))
 
 @st.cache_data
 def get_top_reviews_per_business(path: str = top_reviews_path, train_split: int = 100) -> pd.DataFrame:
-    return pd.DataFrame(load_dataset(path, split=f"train[:{train_split}%]"))
+    return pd.DataFrame(load_dataset(path, split=f"train[:{train_split}%]", token=hf_token))
 
 @st.cache_data
 def get_users_data(path: str = users_data_path, train_split: int = 100) -> pd.DataFrame:
-    return pd.DataFrame(load_dataset(path, split=f"train[:{train_split}%]"))
+    return pd.DataFrame(load_dataset(path, split=f"train[:{train_split}%]", token=hf_token))
 
 @st.cache_data
 def get_business_names(business_dataset: pd.DataFrame) -> list:
