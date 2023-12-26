@@ -12,6 +12,6 @@ def plot_sentiment_chart(business_dataset, business_id, hole_size=0.6):
                  title=f'Sentiment Distribution',
                  labels={'Count': 'Sentiment Count'})
 
-    fig.update_traces(textinfo="percent+label", pull=[0, 0.1])
+    fig.update_traces(textinfo="percent+label", pull=[0, 0.1], showlegend=False)
 
     return fig
