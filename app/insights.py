@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 
-def plot_star_distribution_chart(business_dataset, business_id, hole_size=0.6):
+def plot_star_distribution_chart(business_dataset, business_id):
     stars = [5, 4, 3, 2, 1]
     stars_counts = [business_dataset[business_dataset.business_id == business_id][f"num_star_{i}"].item() for i in stars]
 
@@ -15,7 +15,7 @@ def plot_star_distribution_chart(business_dataset, business_id, hole_size=0.6):
 
     return fig
 
-def plot_sentiment_chart(business_dataset, business_id):
+def plot_sentiment_chart(business_dataset, business_id, hole_size=0.6):
     negative_sentiment_count = business_dataset[business_dataset.business_id == business_id].num_sentiment_0.item()
     positive_sentiment_count = business_dataset[business_dataset.business_id == business_id].num_sentiment_1.item()
 
