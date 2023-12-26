@@ -101,5 +101,8 @@ with business_info_col:
             draw_space()
 
 with review_insights_col:
-    donut = plot_sentiment_chart(business_dataset, selected_business_dict['id'])
-    st.plotly_chart(donut, use_container_width=True)
+    rating = plot_star_distribution_chart(business_dataset, selected_business_dict['id'])
+    st.plotly_chart(rating, use_container_width=True)
+    
+    sentiment = plot_sentiment_chart(business_dataset, selected_business_dict['id'])
+    st.plotly_chart(sentiment, use_container_width=True)
