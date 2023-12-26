@@ -3,6 +3,7 @@ import streamlit as st
 from data import * 
 from utils import *
 from images import *
+from insights import *
 
 # Setting Page Config
 set_page_config()
@@ -100,4 +101,5 @@ with business_info_col:
             draw_space()
 
 with review_insights_col:
-    pass
+    donut = plot_sentiment_chart(business_dataset, selected_business_dict['id'])
+    st.plotly_chart(donut, use_container_width=True)
