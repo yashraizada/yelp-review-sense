@@ -107,3 +107,6 @@ with review_insights_col:
         
         sentiment = plot_sentiment_chart(business_dataset, selected_business_dict['id'])
         st.plotly_chart(sentiment, use_container_width=True)
+
+        aspect = plot_aspect_distribution_chart(business_dataset, selected_business_dict['id'])
+        st.plotly_chart(aspect, use_container_width=True)
