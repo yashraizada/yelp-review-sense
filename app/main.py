@@ -64,7 +64,7 @@ with business_info_col:
         
         selected_business_reviews = get_selected_business_reviews(top_reviews_dataset, selected_business_dict['id'])
 
-        st.subheader('Recommended Reviews')
+        st.subheader('Top Reviews')
         draw_space()
 
         for i in range(5):
