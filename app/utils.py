@@ -18,3 +18,9 @@ def draw_line():
 
 def draw_space(size: int = 3):
     return st.markdown("#" * np.clip(size, 0, 6))
+
+def truncate_text(text: str, length: int = 100):
+    if len(text) > length:
+        return text[:length] + ' ...'
+    
+    return text

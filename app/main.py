@@ -96,7 +96,8 @@ with business_info_col:
                     st.markdown(review_dict['date'])
 
             with st.container():
-                st.markdown(review_dict['text'])
+                truncated_review_text = truncate_text(review_dict['text'])
+                st.markdown(truncated_review_text)
 
             draw_space()
 
