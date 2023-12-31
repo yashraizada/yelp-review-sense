@@ -31,7 +31,7 @@ def plot_sentiment_chart(business_dataset, business_id, hole_size=0.6):
     return fig
 
 def plot_aspect_distribution_chart(business_dataset, business_id):
-    aspects = ['service', 'location', 'staff', 'time', 'food', 'clean']
+    aspects = ['clean', 'food', 'time', 'staff', 'location', 'service']
     aspects_counts = [business_dataset[business_dataset.business_id == business_id][f"abs_{aspect}_rating"].item() for aspect in aspects]
 
     chart_data = pd.DataFrame({'Aspects': aspects,
