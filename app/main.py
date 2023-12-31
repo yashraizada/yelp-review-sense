@@ -87,13 +87,13 @@ with business_info_col:
                     st.markdown(f"{user_info_dict['review_count']} reviews&nbsp;&nbsp;•&nbsp;&nbsp;{user_info_dict['fans']} fans&nbsp;&nbsp;•&nbsp;&nbsp;{user_info_dict['friends_count']} friends&nbsp;&nbsp;•&nbsp;&nbsp;{user_info_dict['years_on_yelp']} years on Yelp&nbsp;&nbsp;•&nbsp;&nbsp;Elite for {user_info_dict['elite_years_count']} years")
         
             with st.container():
-                review_rating_col, review_date_col = st.columns([0.12, 0.88])
+                review_rating_col, review_date_col = st.columns([0.11, 0.89])
 
                 with review_rating_col:
                     st.image(get_business_stars_url(review_dict['stars']))
 
                 with review_date_col:
-                    st.markdown(review_dict['date'])
+                    st.markdown(print_date(review_dict['date']))
 
             with st.container():
                 truncated_review_text = truncate_text(review_dict['text'], length=500)

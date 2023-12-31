@@ -1,5 +1,6 @@
 import numpy as np
 import streamlit as st
+from datetime import datetime
 
 def set_page_config():
     return st.set_page_config(
@@ -24,3 +25,13 @@ def truncate_text(text: str, length: int = 100):
         return text[:length] + ' ...'
     
     return text
+
+def print_date(timestamp: datetime):
+    month = timestamp.strftime('%b')
+    date = timestamp.strftime('%-d')
+    year = timestamp.strftime('%Y')
+    hour = timestamp.strftime('%I')
+    minute = timestamp.strftime('%M')
+    ampm = timestamp.strftime('%p')
+
+    return f"{month} {date}, {year} at {hour}:{minute} {ampm}"
