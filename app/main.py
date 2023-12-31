@@ -87,7 +87,7 @@ with business_info_col:
                     st.markdown(f"{user_info_dict['review_count']} reviews&nbsp;&nbsp;•&nbsp;&nbsp;{user_info_dict['fans']} fans&nbsp;&nbsp;•&nbsp;&nbsp;{user_info_dict['friends_count']} friends&nbsp;&nbsp;•&nbsp;&nbsp;{user_info_dict['years_on_yelp']} years on Yelp&nbsp;&nbsp;•&nbsp;&nbsp;Elite for {user_info_dict['elite_years_count']} years")
         
             with st.container():
-                review_rating_col, review_date_col = st.columns([0.11, 0.89])
+                review_rating_col, review_date_col = st.columns([0.14, 0.86])
 
                 with review_rating_col:
                     st.image(get_business_stars_url(review_dict['stars']))
