@@ -42,6 +42,6 @@ def plot_aspect_distribution_chart(business_dataset, business_id):
              title=f'Aspect-based Ratings',
              labels={'Count': 'Average Rating', 'Aspects': 'Aspects'})
     
-    fig.update_xaxes(range=(0, 5), tickvals=[0, 1, 2, 3, 4, 5])
+    fig.update_xaxes(range=(0, 5), tickvals=[0, 1, 2, 3, 4, 5], showgrid=True)
 
     return fig
