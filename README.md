@@ -18,6 +18,7 @@ Explore Yelp Review Sense application in action! - [Click Here](https://yelp-rev
     * [Review Text Insights](#Review-Text-Insights)
 * [Pipeline](#Pipeline)
 * [Modeling](#Modeling)
+* [Application](#Application)
 * [Conclusion](#Conclusion)
 
 ## Introduction
@@ -147,4 +148,6 @@ The word cloud analysis reveals prominent terms in the dataset, highlighting rec
 
 ## Pipeline
 ## Modeling
+
+## Application
 ## Conclusion
