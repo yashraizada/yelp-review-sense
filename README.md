@@ -88,11 +88,8 @@ The dataset was initially available in a compressed TGZ format. It was uncompres
 Following data extraction, a series of transformation steps were executed to prepare the dataset:
 
 * **Data Integration**: Data from various JSON files were logically integrated to align with the project's objectives.
-
 * **Data Formatting**: Data formatting was applied to maintain consistent data types.
-
 * **Data Reduction**: Given the substantial size of the dataset, only the relevant features were selected.
-
 * **Data Cleaning**: The data underwent a comprehensive cleaning process to address issues such as missing values, duplicate entries, and inconsistencies, ensuring enhanced data reliability.
 
 ### Loading
@@ -143,13 +140,9 @@ The chart highlights a substantial increase in both positive and negative sentim
 The word cloud analysis reveals prominent terms in the dataset, highlighting recurring themes related to the duration of experiences, subjective assessments, and the quality of dining:
 
 * Prominent words like 'long,' 'good,' and 'time' emphasize a focus on experience duration and quality.
-
 * Expressions related to 'order,' 'experience,' and 'waiting' underscore engagement dynamics.
-
 * Terms like 'waiting,' 'hours,' and 'another' touch on time management.
-
-* Words like 'want,' 'take,' 'weekend,' and 'young' provide context, indicating specific desires and preferences
-
+* Words like 'want,' 'take,' 'weekend,' and 'young' provide context, indicating specific desires and preferences.
 * Inclusion of 'never,' 'pleasant,' and 'going' suggests diverse experiences.
 
 ## Pipeline
