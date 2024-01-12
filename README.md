@@ -167,7 +167,7 @@ Upon selecting the restaurant and location, Yelp Review Sense presents the user 
 * **Sentiment for Each Aspect**: Breaks down the sentiments for each predefined aspect, providing users a more detailed analysis of how users perceive different aspects of the restaurant.
 
 ### File Structure
-'''
+```
 ├── app/
 │   ├── main.py                  # Streamlit web application code
 │   ├── requirements.txt         # Dependencies for the web application
@@ -178,7 +178,7 @@ Upon selecting the restaurant and location, Yelp Review Sense presents the user 
 ├── ...                          # Additional project files and directories
 ├── README.md                    # Project README file
 └── ...
-'''
+```
 
 ### Run the Web App
 [Click Here](https://yelp-review-sense.streamlit.app/) to see Yelp Review Sense in action!
