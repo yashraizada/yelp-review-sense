@@ -150,4 +150,37 @@ The word cloud analysis reveals prominent terms in the dataset, highlighting rec
 ## Modeling
 
 ## Application
+
+Yelp Review Sense is a user-friendly web application built using Streamlit that enables users to interactively explore insights for different businesses. Below are the key features and functionalities of the web application:
+
+### Functionality Overview
+#### Restaurant and Location Selection
+
+Users can choose a specific restaurant from the available options and further narrow down their selection by choosing a particular location where the restaurant is situated.
+
+#### Insights Displayed
+
+Upon selecting the restaurant and location, Yelp Review Sense presents the user with the following insights:
+
+* **Distribution of Star Ratings**: Presents the number of reviews in each star rating category.
+* **Distribution of Sentiments**: Illustrates the distribution of sentiments across the reviews, allowing users to understand the overall sentiment polarity of the reviews.
+* **Sentiment for Each Aspect**: Breaks down the sentiments for each predefined aspect, providing users a more detailed analysis of how users perceive different aspects of the restaurant.
+
+### File Structure
+'''
+├── app/
+│   ├── main.py                  # Streamlit web application code
+│   ├── requirements.txt         # Dependencies for the web application
+│   ├── data.py                  # Module to load and retrieve dataframes
+│   ├── utils.py                 # Utility functions
+│   ├── insights.py              # Module for plotting sentiment insights
+│   └── images.py                # Directory for business logos, stars, and other images
+├── ...                          # Additional project files and directories
+├── README.md                    # Project README file
+└── ...
+'''
+
+### Run the Web App
+[Click Here](https://yelp-review-sense.streamlit.app/) to see Yelp Review Sense in action!
+
 ## Conclusion
